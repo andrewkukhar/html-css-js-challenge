@@ -1,0 +1,38 @@
+.toolbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toolbar button {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.form button {
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
